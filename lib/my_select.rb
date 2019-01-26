@@ -1,5 +1,7 @@
 def my_select(collection)
   
+  if i.even?
+  
   even_collection = []
   
   i = 0 

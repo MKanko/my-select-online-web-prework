@@ -8,7 +8,7 @@ def my_select(collection)
   
   while i < collection.length 
   
-    even_collection << yield([i]) 
+    even_collection << yield(collection[i]) 
   
     i = i + 1 
     

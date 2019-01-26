@@ -14,6 +14,6 @@ def my_select(collection)
     
   end 
   
-  even_collection
+  even_collection.compact
   
 end

@@ -1,12 +1,12 @@
-def my_select(array) 
+def my_select(collection) 
   i =0 
-  select = [] 
-  while i < array.length 
-    if (yield(array[i]))
+  even_collection = [] 
+  while i < collection.length 
+    if (yield(collection[i]))
       # select.push(array[i])OR 
-      select << array[i] 
+      even_collection << collection[i] 
     end 
     i += 1 
   end 
-  select 
+  even_collection  
 end 

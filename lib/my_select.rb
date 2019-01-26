@@ -8,7 +8,7 @@ def my_select(collection)
   
     if yield(collection[i])
   
-      even_collection << yield(collection[i])
+      even_collection << collection[i]
     
   end
       
